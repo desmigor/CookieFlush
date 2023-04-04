@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  width: 500px;
+  height: 600px;
+}
+
+.header {
+  background-color: #054a91;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  color: white;
+  font-size: 23px;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+}
+
+.tab1 {
+  background-color: #eff7ff;
+  width: 50%;
+  padding: 4px 0px;
+  border-bottom: 1px solid #054a91;
+}
+
+.tab2 {
+  background-color: white;
+  width: 50%;
+  padding: 4px 0px;
+  border-bottom: 1px solid #a3b8c1;
+}
+
+.tab1:hover {
+  cursor: pointer;
+  background-color: #d2e8ff;
+}
+
+.tab2:hover {
+  background-color: #d2e8ff;
+  cursor: pointer;
+}
+
+.tab1__title {
+  text-align: center;
+  color: #054a91;
+  font-size: 14px;
+}
+
+.tab2__title {
+  text-align: center;
+  color: #a3b8c1;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.tab__desc {
+  font-size: 12px;
+  color: #bfced3;
+  text-align: center;
+  padding: 6px 0px;
+}
+
+.cookies-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 81px;
+}
+
+.cookies-section span {
+  font-size: 14px;
+  color: #bfced3;
+}
+
+.cookies-section img {
+  width: 170px;
+  height: 170px;
+}
+
+.table-container {
+  overflow-y: auto;
+  height: 345px;
+  border-bottom: 4px solid #eeeeee;
+  margin: 0px 20px;
+  display: flex;
+}
+
+/* Styles for scroll-bar */
+.table-container::-webkit-scrollbar {
+  width: 3px;
+  height: 12px;
+  position: relative;
+}
+
+/* Track */
+.table-container::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 5px;
+}
+
+/* Handle */
+.table-container::-webkit-scrollbar-thumb {
+  background: rgb(211, 211, 211);
+  border-radius: 5px;
+  width: 20px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.styled-table thead tr {
+  color: #031930;
+  background-color: #f3f6f7;
+  font-size: 15px;
+  text-align: left;
+}
+
+.styled-table thead tr th {
+  padding: 12px 15px;
+}
+
+.styled-table thead,
+.styled-table td {
+  padding: 9px 15px;
+}
+
+.styled-table tbody tr {
+  color: #031930;
+  font-size: 14px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.styled-table tbody tr:hover {
+  cursor: pointer;
+}
+
+.delete-all {
+  background-color: #054a91;
+  color: white;
+  border-radius: 60px;
+  text-align: center;
+  border: none;
+  padding: 8px 32px;
+  font-size: 16px;
+}
+
+.delete-all:hover {
+  background-color: #003163;
+  color: white;
+  cursor: pointer;
+}
+
+.auto-del {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.auto-del span {
+  color: #054a91;
+  font-size: 16px;
+}
+
+.down-btns {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  padding: 26px 0px;
+}
+
+.switch-off-first {
+  display: flex;
+}
+
+.switch-on-first {
+  display: none;
+}
+
+.switch-on-third {
+  display: none;
+}
+
+.switch-off-third {
+  display: flex;
+}
+
+.switch-off-third:hover,
+.switch-on-third:hover {
+  cursor: pointer;
+}
+
+.switch-off-first:hover,
+.switch-on-first:hover {
+  cursor: pointer;
+}
+
+.firstSwitch {
+  display: flex;
+}
+
+.thirdSwitch {
+  display: none;
+}
