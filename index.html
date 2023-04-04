@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Flush</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="/assets/logo.png" alt="logo" />
+        <h1 class="header__title">CookieFlush</h1>
+      </header>
+      <div class="tabs">
+        <div class="tab1">
+          <h2 class="tab1__title">1st-party cookies</h2>
+        </div>
+        <div class="tab2">
+          <h2 class="tab2__title">3rd-party cookies</h2>
+        </div>
+      </div>
+      <div class="main">
+        <h3 class="tab__desc"></h3>
+        <div class="data-section">
+          <div class="table-container">
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th >Name</th>
+                  <th >Domain</th>
+                  <th >Action</th>
+                </tr>
+              </thead>
+              <tbody class="table-body"></tbody>
+            </table>
+          </div>
+          <div class="cookies-section"></div>
+        </div>
+
+        <div class="down-btns">
+          <div class="auto-del">
+            <span>Auto Delete</span>
+            <div class="first-party">
+              <img
+              class="switch-off-first"
+              src="assets/switchoff.png"
+              alt="switchoff-icon"
+            />
+            <img
+              class="switch-on-first"
+              src="assets/switchon.png"
+              alt="switchon-icon"
+            />
+            </div>
+            <div class="third-party">
+              <img
+              class="switch-off-third"
+              src="assets/switchoff.png"
+              alt="switchoff-icon"
+            />
+            <img
+              class="switch-on-third"
+              src="assets/switchon.png"
+              alt="switchon-icon"
+            />
+            </div> 
+          </div>
+          <button class="delete-all">Delete All</button>
+        </div>
+      </div>
+    </div>
+    <script src="/js/index.js"></script>
+    <script src="background.js"></script>
+  </body>
+</html>
