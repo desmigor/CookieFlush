@@ -25,10 +25,10 @@
   "action": {
     "default_title": "CookieFlush",
     "default_icon": "assets/icons/icon_default.png",
-    "default_popup": "index.html"
+    "default_popup": "src/index.html"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "src/js/runner.js"
   },
   "content_scripts": [
     {
@@ -38,7 +38,7 @@
         "https://*/*"
       ],
       "js": [
-        "js/index.js"
+        "src/js/index.js"
       ]
     }
   ]

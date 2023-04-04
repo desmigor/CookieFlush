@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <td class="cookie-name-input"><div style='width: 100px;  white-space: nowrap;overflow: hidden; text-overflow: ellipsis;'>${item.name}</div></td>
       <td>${item.domain}</td>
       <td >
-        <img src="./assets/trash.png" alt="trash-icon" class="delete-cookie-button"/>
+        <img src="../assets/trash.png" alt="trash-icon" class="delete-cookie-button"/>
       </td>
     </tr>`;
       bodySect.insertAdjacentHTML("beforeend", tableRow);
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Display all cookies were deleted
   const deletedMode = (icon, text) => {
-    let cookieData = `<img src="assets/${icon}.png" alt="emoji" />
+    let cookieData = `<img src="../assets/${icon}.png" alt="emoji" />
       <span class="message">${text}</span>`;
     tableSect.style.display = "none";
     cookiesSect.style.display = "flex";
