@@ -1,0 +1,10 @@
+# Files
+.DS_Store
+TODO.md
+
+# Directories
+/.parcel-cache/
+/dist/
+/node_modules/
+/private/
+/target/
