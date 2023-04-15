@@ -3,7 +3,7 @@
   "name": "CookieFlush",
   "version": "1.0.0",
   "author": "Igor Mpore",
-  "description": "Manage your cookies with ease and clean interface!",
+  "description": "Manage your cookies, and keep your privacy.",
   "host_permissions": [
     "*://*/",
     "http://*/*",
