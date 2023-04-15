@@ -25,7 +25,7 @@ Manage your cookies, and keep your privacy. This extension sorts first-party  fr
 
 2. via Self Installation
 
-    Download the latest [Github release](#)
+    Download the latest [Github release](https://github.com/desmigor/CookieFlush/releases)
 
     > Please keep in mind that at this time only Google Chrome is the only supported browser.
 
