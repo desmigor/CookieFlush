@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let tab1 = document.querySelector(".tab1");
   let tab2 = document.querySelector(".tab2");
   let tab1__title = document.querySelector(".tab1__title");
-  let tab2__title = document.querySelector(".tab2");
+  let tab2__title = document.querySelector(".tab2__title");
   let tab__desc = document.querySelector(".tab__desc");
   let switchOnFirst = document.querySelector(".switch-on-first");
   let switchOffFirst = document.querySelector(".switch-off-first");

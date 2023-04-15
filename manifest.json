@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Cookie Manager",
+  "name": "CookieFlush",
   "version": "1.0",
   "author": "Igor Mpore",
-  "description": "Manage your cookies easily and smoothly!",
+  "description": "Manage your cookies with ease and clean interface!",
   "host_permissions": [
     "*://*/",
     "http://*/*",
