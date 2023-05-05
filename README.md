@@ -2,6 +2,8 @@
 
 ![CookieFlush Promo](/screenshoots/git-promo.png)
 
+### Official Website: [https://cookieflushh.com/](https://cookieflushh.com/)
+
 Manage your cookies, and keep your privacy. This extension sorts first-party  from third-party cookies and allows you to delete unnecessary ones. Nowadays, third-party cookies are used for tracking activities on internet and this extension will help you remove such cookies. When auto-delete is turned on, cookies are deleted after a tab is closed.
 
 ## Main features
@@ -21,7 +23,7 @@ Manage your cookies, and keep your privacy. This extension sorts first-party  fr
 
 1. Via Official Channels
 
-    [Google Chrome](#)
+    [Google Chrome](https://chrome.google.com/webstore/detail/cookieflush/eoodnlghclbcfjmamkdempkjjagkjahf)
 
 2. via Self Installation
 
